@@ -1,4 +1,4 @@
-package SmartTv;
+
 
 public class SmartTv {
     boolean ligada = false;
