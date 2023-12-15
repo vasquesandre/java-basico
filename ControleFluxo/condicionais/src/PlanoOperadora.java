@@ -17,7 +17,7 @@ public class PlanoOperadora {
                 System.out.println("WhatsApp e Instagram ilimitados");
             }
             case "BASIC": {
-                System.out.println("100 minutos de ligação a");
+                System.out.println("100 minutos de ligação");
             }
         }
 
