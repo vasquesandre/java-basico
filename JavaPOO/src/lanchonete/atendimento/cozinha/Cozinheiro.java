@@ -18,6 +18,7 @@ public class Cozinheiro {
 	}
 	private void prepararLanche() {
 		System.out.println("PREPARANDO LANCHE TIPO HAMBÚRGUER");
+		prepararCombo();
 	}
 	private void prepararVitamina() {
 		System.out.println("PREPARANDO SUCO");
@@ -25,6 +26,13 @@ public class Cozinheiro {
 	private void prepararCombo() {
 		prepararLanche();
 		prepararVitamina();
+		selecionarIngredientesLanche();
+		selecionarIngredientesVitamina();
+		lavarIngredientes();
+		baterVitaminaLiquidificador();
+		fritarIngredientesLanche();
+		pedirIngredientes(null);
+		pedirParaTrocarGas(null);
 	}
 	private void selecionarIngredientesLanche() {
 		System.out.println("SELECIONADO O PÃO, SALADA, OVO E CARNE");
@@ -50,4 +58,5 @@ public class Cozinheiro {
 	private void pedirIngredientes(Almoxarife almoxarife) {
 		almoxarife.entregarIngredientes();
 	}
+
 }
