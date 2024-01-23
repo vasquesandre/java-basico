@@ -1,6 +1,6 @@
-package MSN;
+package herança;
 
-public class MSNMessenger {
+public class ServicoMensagemInstantanea {
     public void enviarMensagem() {
         validarConexaoInternet();
         System.out.println("Enviando mensagem");
@@ -16,6 +16,6 @@ public class MSNMessenger {
     }
 
     private void salvarHistoricoMnesagem() {
-        System.out.println("Salvando histórico de mensagem");
+        System.out.println("Mensagem salva");
     }
 }
